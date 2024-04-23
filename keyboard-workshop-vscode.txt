@@ -20,11 +20,55 @@ list of shortcuts is here:
 Open this file side-by-side with the code files we'll be working on,
 
 ** Use constantly
+* Click on line number(s) to select line(s)
+* Ctrl-(C V V) Duplicate selection
+* Ctrl-/: Toggle comment
+* Ctrl-D: Select word at cusor / select other instances of selection
+  Ctrl-Shift Up/Down: Add cursor above/below
+  Ctrl-Click/Click&Drag: Add cursor/selection
+  Alt-Click&Drag: Rectangular selection
+  Esc Esc: Remove multiple cursors/selections
+
+* Ctrl-Space: Open Intellisense
+* Press Enter anywhere in a command line (not just the end)
 
 ** Use many times per session
+* {/[/(/</'/"/` with text selected: Wrap the selection in delimiters
+* Ctrl-Enter: Open new line below
+* Ctrl-Shift-Enter: Open new line above
+* Alt-Up/Down: Move current or selected line(s) up/down
+* Ctrl-C/X with nothing selected: Copy/Cut current line
+* Ctrl-`(backtick [below tilde]): Open/close terminal
+* Ctrl-Alt-M Maximize/restore terminal
+* Ctrl-Tab: Switch tabs in order visited
+  Ctrl-PageUp/PageDown: Switch tabs in visual order
+* Ctrl-F: Find
+  Ctrl-H: Search & replace
+* Ctrl-Shift-F: Find in files
+  Ctrl-Shift-H: Search & replace in files
+* Ctrl-Delete in terminal: Delete next word (multiple separators; different from Ctrl-backspace!)
+* Ctrl-Backspace in terminal (space is the only separator; different from Ctrl-delete!)
+* F12: Go to definition
+* F2: Rename symbol
 
 ** Use frequently
+* Alt Tab: switch apps
+* Minimap (picture scrollbar)
+* Ctrl-L: Select entire current line / extend selection to whole lines
+* Ctrl-W: Close the current window
 
 ** Use occasionally
+* Case sensitive/insensitive search
+* Whole word search
+* Cased replace
+* Ctrl-1/2/3: Go to editor 1/2/3 (useful to leave terminal without closing it)
+* Ctrl-P: Find and open a file
 
 ** Also available
+* Ctrl-Shift-K: Delete current line/selection without changing clipboard
+* Ctrl-B: Toggle sidebar
+* Ctrl-Shift-I): Format the entire active file. 
+* Ctrl-K, Ctrl-F: Format the selected text.
+* Ctrl \: Split current window 
+  Alt-Shift 0 toggle split orientation
+  Recommend binding Ctrl-Shift-0: Remove all split windows (View: Single Column Editor Layout)
