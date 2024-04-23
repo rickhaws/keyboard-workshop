@@ -1,0 +1,30 @@
+// *** VS Code shortcuts
+
+
+This tutorial assumes you are already comfortable with common shortcuts
+that are available in most programs:
+     Shift-Left/Right/Up/Down - Extend or shrink selection right/left/up/down
+     Shift-Home/End - Extend selection to beginning/end of current line
+     Ctrl-Left/Right - Move cursor one word at a time
+     Ctrl-Home/End - Move cursor to top/bottom of file
+     Shift-Ctrl-Left/Right - Extend or shrink selection one word at a time
+     Shift-Ctrl-Home/End - Extend selection to beginning/end of file
+     Ctrl-C/X - Copy/Cut selection to clipboard
+     Ctrl-V - Paste from clipboard
+     Ctrl-Z/Y - Undo/Redo
+ 
+Let's go through VS Code shortcuts in order by how often I use them.  A good
+list of shortcuts is here:
+    https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
+
+Open this file side-by-side with the code files we'll be working on,
+
+** Use constantly
+
+** Use many times per session
+
+** Use frequently
+
+** Use occasionally
+
+** Also available
