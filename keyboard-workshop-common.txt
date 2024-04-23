@@ -1,0 +1,161 @@
+Welcome to the keyboard shortcuts workshop!
+We will mostly focus on using the keyboard effectively, with a few mouse tricks
+thrown in as well.
+
+The mouse is a great tool, and when it makes sense to use the mouse in your work,
+use
+it.  Likewise, the keyboard is powerful.  You can only use one at a time, and it is
+inefficient to switch between the mouse and the keyboard too often.  When you are in
+the middle of typing, it is slow and distracting to grab the mouse to move the cursor
+a short distance or to cut, copy and paste small distances or repetitively.  Let's
+practice using the keyboard to get around.  Throughout this tutorial, use only the
+keyboard unless specifically told to use the mouse.
+
+*** Common Commands
+
+** Moving the cursor
+
+We'll start with the arrow keys.  You know what they do, but let's get used to using
+them.  We'll see where they are useful and where they are slow and cumbersome.  Then
+you'll learn ways to speed them up.  Hopefully you will get to where moving around in
+a file using the keyboard is second nature.
+
+We'll use the following exercise paragraph a lot.  Soon you will know exactly what
+to
+edit and will keep learning faster ways to do it.
+
+* Exercise:
+Using only the arrow keys to move around and the backspace key to erase, change
+"problem" to "correction" and "bad" to "good" in the following sentences.  
+
+    This is a paragraph with problems.  There is a problem in this sentence.  There's
+    another problem in this sentence.  This sentence is bad.  This one is really bad. 
+    Here come some more sentences with problems.  There's a bad boy who is always making
+    problems where things go wrong.
+
+You probably noticed that moving up and down isn't too bad, but moving left and right
+can be pretty slow.  Using the Control key you can make the two arrow keys move the
+cursor one word at a time.  The Ctrl-Left and Ctrl-Right key combinations work in
+almost any programs on any operating system.  Try it now.  It's important to
+recognize that Control is a *modifier key* like the Shift key is.  As long as you
+hold it down, it modifies the behavior of other keys.  That means that if you hold
+down Control, you can jump over several words by pressing Left or Right repeatedly. 
+Use this technique to move to the front and end of your current line.
+
+* Exercise:
+Using only the Ctrl-Left and Ctrl-Right combinations to move around and the backspace
+key to erase, change "problem" to "correction" and "bad" to "good" in the following
+sentences.  
+
+    This is a paragraph with problems.  There is a problem in this sentence.  There's
+    another problem in this sentence.  This sentence is bad.  This one is really bad. 
+    Here come some more sentences with problems.  There's a bad boy who is always making
+    problems where things go wrong.
+
+Alright, let's move a little faster.  The Control key also makes the Backspace and
+Delete key operate on words.
+
+* Exercise:
+Using Ctrl-Left/Right and Ctrl-Bksp/Del, change "problem" to "correction" and "bad"
+to "good" in the following sentences.  
+
+    This is a paragraph with problems.  There is a problem in this sentence.  There's
+    another problem in this sentence.  This sentence is bad.  This one is really bad. 
+    Here come some more sentences with problems.  There's a bad boy who is always making
+    problems where things go wrong.
+
+Now get used to using the Home and End keys.  Hopefully your fingers will learn to
+find them without looking.
+
+* Exercise:
+Using Ctrl-Left/Right, Ctrl-Bksp/Del, Home/End, change "problem" to "correction"
+and
+"bad" to "good" in the following sentences.  
+
+    This is a paragraph with problems.  There is a problem in this sentence.  There's
+    another problem in this sentence.  This sentence is bad.  This one is really bad. 
+    Here come some more sentences with problems.  There's a bad boy who is always making
+    problems where things go wrong.
+
+The Control key works with Home and End too.  The go to the beginning and end of
+the
+whole file.
+
+* Exercise:
+Take note of what line number this is.  You may use the mouse to return here after this 
+exercise.
+
+Use Ctrl-Home to go to the top and put your name after "Welcome".
+Use Ctrl-End to add "The End" to the bottom.
+
+** Selecting text
+
+All of the shortcuts so far can be used to select text.  Once the text is selected,
+you can erase it with Backspace or Delete.  You don't have to delete the selection
+before typing something else.  As soon as you start typing the selection will
+disappear and be replaced with what you type.
+
+* Exercise:
+Use Left/Right/Up/Down, Home/End
+    Ctrl Left/Right
+    Shift-Up/Down
+    Shift-Ctrl Left/Right
+Do not use: Backspace/Delete!
+Change "problem" to "correction" and "bad" to "good" in the following sentences.
+
+
+    This is a paragraph with problems.  There is a problem in this sentence.  There's
+    another problem in this sentence.  This sentence is bad.  This one is really bad. 
+    Here come some more sentences with problems.  There's a bad boy who is always making
+    problems where things go wrong.  If you didn't use all of the keys/combinations, take
+    care of the problem.  Once you have used all of them, that is bad.  Oops, there is a
+    problem in the previous sentence!
+
+* Exercise:
+Use Shift-Home/End
+    Shift-Bksp/Del
+Change "problem" to "correction" and "bad" to "good" in the following sentences.
+
+Then replace the last line with "Done!"
+    This is a paragraph with problems.  There is a problem in this sentence.  There's
+    another problem in this sentence.  This sentence is bad.  This one is really bad. 
+    Here come some more sentences with problems.  There's a bad boy who is always making
+    problems where things go wrong.  If you didn't use all of the keys/combinations, take
+    care of the problem.  
+    Once you have used all of them, that is bad.  Oops, there is a problem in the
+    previous sentence!  Get rid of this line.
+
+** Editing
+
+You may be familiar with these; let's practice them:
+Ctrl-C/X/V - Copy/Cut/Paste
+
+* Exercise:
+Use Ctrl-X to cut these sentences.  Then use Ctrl-V to paste them twice.
+    This is a paragraph with corrections.  There is a correction in this sentence.
+  
+    There's another correction in this sentence.  This sentence is good.  This one is
+    really good.  Here come some more sentences with corrections.  There's a good boy who
+    is always making corrections where things go wrong.
+
+* Exercise:
+Use Ctrl-C to copy these sentences.  While they are still highlighted, hold down
+Control and press V three times.  You should now have three copies
+    This is a paragraph with corrections.  There is a correction in this sentence.
+  
+    There's another correction in this sentence.  This sentence is good.  This one is
+    really good.  Here come some more sentences with corrections.  There's a good boy who
+    is always making corrections where things go wrong.
+
+* Exercise:
+Hold down Control and press Z a few times.  Hold down Control and press Y repeatedly
+until all changes have been restored.
+    This is a paragraph with corrections.  There is a correction in this sentence.
+  
+    There's another correction in this sentence.  This sentence is good.  This one is
+    really good.  Here come some more sentences with corrections.  There's a good boy who
+    is always making corrections where things go wrong.
+
+This is the end of the section on common shortcuts.  All of these are available in
+almost all programs and operating systems.
+
