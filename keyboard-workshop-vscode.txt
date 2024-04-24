@@ -1,4 +1,4 @@
-// *** VS Code shortcuts
+*** VS Code shortcuts
 
 
 This tutorial assumes you are already comfortable with common shortcuts
@@ -12,63 +12,164 @@ that are available in most programs:
      Ctrl-C/X - Copy/Cut selection to clipboard
      Ctrl-V - Paste from clipboard
      Ctrl-Z/Y - Undo/Redo
+
+** Setup
+Make sure you have GIT for Windows installed.
+
+This tutorial is targeted to developers who normally run VS Code in Linux.
+If you are doing this tutorial on Windows, install the extension
+LinuxKeyBindings.
  
 Let's go through VS Code shortcuts in order by how often I use them.  A good
 list of shortcuts is here:
     https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
 
-Open this file side-by-side with the code files we'll be working on,
+Open this file side-by-side with the code files we'll be working on, either 
+in a split window in VS Code or in another editor like Notepad.  In VS Code,
+make sure line numbers are showing.
+
+Note that these exercises are tedious to follow along with while reading.
+However, if you repeat each exercise multiple times, you will begin to be
+able to use the shortcuts 
 
 ** Use constantly
-* Click on line number(s) to select line(s)
-* Ctrl-(C V V) Duplicate selection
-* Ctrl-/: Toggle comment
-* Ctrl-D: Select word at cusor / select other instances of selection
-  Ctrl-Shift Up/Down: Add cursor above/below
-  Ctrl-Click/Click&Drag: Add cursor/selection
-  Alt-Click&Drag: Rectangular selection
-  Esc Esc: Remove multiple cursors/selections
+Let's start with some simple commands.
 
-* Ctrl-Space: Open Intellisense
-* Press Enter anywhere in a command line (not just the end)
+Ctrl-Space: Open Intellisense
+Sometimes the Intellisense suggestions go away and you want them back.
+
+* Exercise
+Show intellisense after it is hidden, using the keyboard.
+  - Add a new line after 279
+  - Type "Game." - Intellisense opens
+  - Type "tos" and Enter to select toString
+  - Press Ctrl-Bksp to delete toString - There is no Intellisense
+  - Press Ctrl-Space - Intellisense opens again!
+  - Type "tos" and then "(" - It auto-completes to "Game.ToString()"
+    -- But the cursor is between the parentheses
+  - Type ");" - The cursor jumps over the closing paren and inserts ";"
+    -- You can jump over auto-inserted closing delimeters (quotes and 
+       brackets) by typing their character instead of moving your hands 
+       to the arrow keys.
+
+Press Enter anywhere in a command line (not just the end)
+Just a little thing, but I often see people edit a word in the middle of
+a command line and then arrow to the end before pressing Enter.  All those
+extra arrow presses are unnecessary!
+
+* Exercise:
+  - Press Ctrl-` (that's the backtick below "~") - Opens a terminal
+  - Type "echo Please excuse my Aunt Sally"
+  - Press Enter
+  - Press Up
+  - Click Ctrl-Left until the cursor is before "Aunt"
+    -- Hopefully you only needed two presses of Left to get there
+  - Type "dear "
+  - Press Enter *without* moving the cursor
+    -- The command line won't break up your line unless there's an unmatched
+       quote or bracket
+
+Click on line number(s) to select line(s)
+Ctrl-(C V V) Duplicate selection
+Ctrl-/: Toggle comment
+
+* Exercise
+  - In Game.test.tsx, find the test for 'jump' (line 256)
+  - Click on the line number (256) to select the line
+  - Hold down Control and type C, V, V, V, V, V
+    -- The line now appears four times
+    -- The last duplicate line is still highlighted
+  - Hold down Shift and press the up arrow twice
+    -- Three of the lines are selected
+  - Press Ctrl-/ (The slash below '?' on the keyboard)
+    -- The three lines are commented
+  - Press Ctrl-/ again
+    -- The lines are uncommented
+  - Press Delete or Backspace
+    -- The duplicateds line are deleted
+
+Ctrl-D: Select word at cusor / select other instances of selection
+Ctrl-Shift Up/Down: Add cursor above/below
+Esc Esc: Remove multiple cursors/selections
+  Used with other shortcuts, Ctrl-D is a real workhorse.  Often the lines you 
+  want to target have some unique string in common.  If you can select all 
+  instances, then you can use normal cursor movement and selection commands on
+  every line at once. 
+
+* Exercise
+Change every string in the `spaces` array to "Shortcuts".
+
+  - On line 194, click anywhere in the first occurrence of "Removed"
+  - Hold down Control and repeatedly press D six times
+    -- All occurrences of "Removed" selected
+  - Press Left once
+    -- There is a cursor after each opening quote on the line
+  - Hold down Control and press Down until all lines in the array have cursors
+    -- There is a cursor after each opening quote in the entire array
+  - Press Ctrl-Shift-Right once
+    -- Every word in the array is selected
+  - Type the word "Shortcuts" (no quotes)
+    -- All array entries are 'Shortcuts'
+
+* Challenge: 
+Align all entries in the array by removing extra spaces.
+This can be done with regex search and replace, but here is a way to do it with 
+shortcuts:
+  - Press ESC ESC and arrows or click to put the cursor in the first "Shortcuts"
+  - Ctrl-D - highlights "Shortcuts"
+  - Shift-(Right x 3) - Highlights "Shortcuts, "
+  - Ctrl-(D x many) until all instances are highlighted
+  - Right - cursors after ', '
+  - Left x 2 - cursors before all internal commas after "Shortcuts"
+  - Shift-Ctrl-(Right x 2)
+  - Shift-Ctrl-(Left x 2) - all commas and spaces between "Shortcuts" selected
+  - Type ', ' - all extra spaces are removed
+
+This is the end of prepared exercises.  More shortcuts follow.  Feel free to 
+experiment with them and get your mind and fingers used to them and where they
+can be useful.
+
+Ctrl-Click: Add cursor
+Ctrl-Click&Drag: Add selection
+Alt-Click&Drag: Rectangular selection
 
 ** Use many times per session
-* {/[/(/</'/"/` with text selected: Wrap the selection in delimiters
-* Ctrl-Enter: Open new line below
-* Ctrl-Shift-Enter: Open new line above
-* Alt-Up/Down: Move current or selected line(s) up/down
-* Ctrl-C/X with nothing selected: Copy/Cut current line
-* Ctrl-`(backtick [below tilde]): Open/close terminal
-* Ctrl-Alt-M Maximize/restore terminal
-* Ctrl-Tab: Switch tabs in order visited
+  {/[/(/</'/"/` with text selected: Wrap the selection in delimiters
+  Ctrl-Enter: Open new line below
+  Ctrl-Shift-Enter: Open new line above
+  Alt-Up/Down: Move current or selected line(s) up/down
+  Ctrl-C/X with nothing selected: Copy/Cut current line
+  Ctrl-`(backtick [below tilde]): Open/close terminal
+  Ctrl-Alt-M Maximize/restore terminal
+  Ctrl-Tab: Switch tabs in order visited
   Ctrl-PageUp/PageDown: Switch tabs in visual order
-* Ctrl-F: Find
+    Ctrl-F: Find
   Ctrl-H: Search & replace
-* Ctrl-Shift-F: Find in files
+    Ctrl-Shift-F: Find in files
   Ctrl-Shift-H: Search & replace in files
-* Ctrl-Delete in terminal: Delete next word (multiple separators; different from Ctrl-backspace!)
-* Ctrl-Backspace in terminal (space is the only separator; different from Ctrl-delete!)
-* F12: Go to definition
-* F2: Rename symbol
+    Ctrl-Delete in terminal: Delete next word (multiple separators; different from Ctrl-backspace!)
+  Ctrl-Backspace in terminal (space is the only separator; different from Ctrl-delete!)
+  F12: Go to definition
+  F2: Rename symbol
 
 ** Use frequently
-* Alt Tab: switch apps
-* Minimap (picture scrollbar)
-* Ctrl-L: Select entire current line / extend selection to whole lines
-* Ctrl-W: Close the current window
+  Alt Tab: switch apps
+  Minimap (picture scrollbar)
+  Ctrl-L: Select entire current line / extend selection to whole lines
+  Ctrl-W: Close the current window
 
 ** Use occasionally
-* Case sensitive/insensitive search
-* Whole word search
-* Cased replace
-* Ctrl-1/2/3: Go to editor 1/2/3 (useful to leave terminal without closing it)
-* Ctrl-P: Find and open a file
+  Case sensitive/insensitive search
+  Whole word search
+  Cased replace
+  Ctrl-1/2/3: Go to editor 1/2/3 (useful to leave terminal without closing it)
+  Ctrl-P: Find and open a file
 
 ** Also available
-* Ctrl-Shift-K: Delete current line/selection without changing clipboard
-* Ctrl-B: Toggle sidebar
-* Ctrl-Shift-I): Format the entire active file. 
-* Ctrl-K, Ctrl-F: Format the selected text.
-* Ctrl \: Split current window 
+  Ctrl-Shift-K: Delete current line/selection without changing clipboard
+  Ctrl-B: Toggle sidebar
+  Ctrl-Shift-I): Format the entire active file. 
+  Ctrl-K, Ctrl-F: Format the selected text.
+  Ctrl \: Split current window 
   Alt-Shift 0 toggle split orientation
   Recommend binding Ctrl-Shift-0: Remove all split windows (View: Single Column Editor Layout)
