@@ -138,7 +138,7 @@ describe('Game state tests', () => {
         expect(Game.getState(5, 6)).toBe('Open');
         expect(Game.getState(5, 7)).toBe('Removed');
         expect(Game.getState(5, 8)).toBe('Removed');
-1
+
         expect(Game.getState(6, 0)).toBe('Removed');
         expect(Game.getState(6, 1)).toBe('Open');
         expect(Game.getState(6, 2)).toBe('Open');

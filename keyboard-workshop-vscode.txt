@@ -86,7 +86,7 @@ Ctrl-/: Toggle comment
   - Press Ctrl-/ again
     -- The lines are uncommented
   - Press Delete or Backspace
-    -- The duplicateds line are deleted
+    -- The duplicated lines are deleted
 
 Ctrl-D: Select word at cusor / select other instances of selection
 Ctrl-Shift Up/Down: Add cursor above/below
